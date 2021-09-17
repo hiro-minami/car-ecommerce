@@ -13,7 +13,6 @@ class Car {
         this.date = date;
         this.picPath = picPath;
     }
-    // getter
     public getId(): string {
         return this.id;
     }
@@ -31,25 +30,6 @@ class Car {
     }
     public getPicPath(): string {
         return this.picPath;
-    }
-    // setter
-    public setId(newId: string): void {
-        this.id = newId;
-    }
-    public setName(newName: string): void {
-        this.name = newName;
-    }
-    public setCategory(newCategory: string): void {
-        this.category = newCategory;
-    }
-    public setPrice(newPrice: number): void {
-        this.price = newPrice;
-    }
-    public setDate(newDate: string): void {
-        this.date = newDate;
-    }
-    public setPicPath(newPath: string): void {
-        this.picPath = newPath;
     }
 }
 

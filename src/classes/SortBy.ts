@@ -13,12 +13,6 @@ class SortBy implements Select {
     public getName(): string {
         return this.sortCategory;
     }
-    public setId(newId: string): void {
-        this.sortId = newId;
-    }
-    public setName(newCategory: string): void {
-        this.sortCategory = newCategory;
-    }
 }
 
 export default SortBy;

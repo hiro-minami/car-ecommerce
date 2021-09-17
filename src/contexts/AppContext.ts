@@ -1,6 +1,10 @@
 import React, { createContext } from "react";
-import { brandList } from "../models/brandList";
+import Car from "../classes/Car";
 import { carList } from "../models/carList";
-import { sortByList } from "../models/sortByList";
 
-export const AppContext = createContext({ state: { brandList, carList, sortByList }, dispatch: () => {} });
+type Context = {
+    state: Car[];
+    dispatch: React.Dispatch<any>;
+};
+
+export const AppContext = createContext<Context>({ state: carList, dispatch: () => {} });

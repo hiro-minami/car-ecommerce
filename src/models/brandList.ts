@@ -1,7 +1,7 @@
 import Brand from "../classes/Brand";
 
 const brandList: Brand[] = [];
-brandList.push(new Brand("0001", "Telsa"));
+brandList.push(new Brand("0001", "Tesla"));
 brandList.push(new Brand("0002", "Porsche"));
 brandList.push(new Brand("0003", "Toyota"));
 brandList.push(new Brand("0004", "Honda"));
